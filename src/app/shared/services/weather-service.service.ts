@@ -9,9 +9,9 @@ import { Day } from '../model/day.model';
   providedIn: 'root'
 })
 export class WeatherService {
-  private apiKey: string = 'e308e1a0c714a9fe0f80ed6770558d11';
-  private baseURL: string = 'https://api.openweathermap.org/data/2.5/forecast';
-  private cityForecastBaseURL: string = 'https://api.openweathermap.org/data/2.5/onecall';
+  apiKey: string = 'e308e1a0c714a9fe0f80ed6770558d11';
+  baseURL: string = 'https://api.openweathermap.org/data/2.5/forecast';
+  cityForecastBaseURL: string = 'https://api.openweathermap.org/data/2.5/onecall';
   cityDetail = new Subject<any>();
 
   constructor(private http: HttpClient) { }
