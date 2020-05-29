@@ -1,0 +1,56 @@
+.custom-form {
+    padding-left: 0px;
+}
+.error {
+    color: red;
+}
+.location-header {
+    color: gray;
+    height: 20px;
+}
+.location-section {
+    height: 70%;
+}
+.cities-list {
+    overflow-y: auto;
+    height: calc(100% - 30px);
+}
+/* .cities-list::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+/* .cities-list {
+    -ms-overflow-style: none;
+} */
+  .cities-list::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  .cities-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  .cities-list::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+  }
+  
+  /* Handle on hover */
+  .cities-list::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+}
+
+a.list-group-item.active {
+    z-index: 2;
+    color: #151414;
+    background-color: #ededed;
+    border-color: #ededed;
+}
